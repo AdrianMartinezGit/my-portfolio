@@ -19,16 +19,16 @@ export default function Home() {
     <>
       <h1 className="text-9xl font-semibold text-black text-center mt-24">Adrian Martinez</h1>
       <h2 className="text-5xl font-extrabold text-black text-center">Junior Developer</h2>
-      <p className="text-center text-2xl text-black mt-3 font-bold">Aspiring Front End Developer based in Antioch, California</p>
+      <p className="text-center text-2xl text-black mt-3 font-bold">{`Aspiring Front End Developer based in Antioch, California`}</p>
 
       <div className="w-full h-[960px] bg-green-200 mt-32">
         <div className="grid grid-cols-2">
           <Image src={aboutImage} alt="About Image" className="h-[960px] w-full object-cover" />
           <div className="p-16">
-            <h1 className="text-black text-8xl font-semibold">About Me</h1>
-            <p className="text-black text-4xl font-normal mt-5">Hi there! My name is Adrian Martinez, and I am currently a Junior Web Developer, and student, at Codestack Academy.</p>
-            <p className="text-black text-4xl font-normal mt-10">Ever since I was young, I've always wanted to learn how to code so that I can make my own video games, which is how I ended up on my programming journey. Since then, I've been learning how to code using various languages, frameworks, libraries, and engines to get a grasp on how writing lines of code, along with planning, troubleshooting, and debugging, can be so challenging, and what skills I have learned that I can put to use.</p>
-            <p className="text-black text-4xl font-normal mt-10">Otherwise, when I'm not working, I like to play video games, go outside to many places I haven't been to before, and draw for fun.</p>
+            <h1 className="text-black text-8xl font-semibold">{`About Me`}</h1>
+            <p className="text-black text-4xl font-normal mt-5">{`Hi there! My name is Adrian Martinez, and I am currently a Junior Web Developer, and student, at Codestack Academy.`}</p>
+            <p className="text-black text-4xl font-normal mt-10">{`Ever since I was young, I've always wanted to learn how to code so that I can make my own video games, which is how I ended up on my programming journey. Since then, I've been learning how to code using various languages, frameworks, libraries, and engines to get a grasp on how writing lines of code, along with planning, troubleshooting, and debugging, can be so challenging, and what skills I have learned that I can put to use.`}</p>
+            <p className="text-black text-4xl font-normal mt-10">{`Otherwise, when I'm not working, I like to play video games, go outside to many places I haven't been to before, and draw for fun.`}</p>
           </div>
         </div>
       </div>

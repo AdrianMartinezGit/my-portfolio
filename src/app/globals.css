@@ -7,6 +7,10 @@ body {
   background: rgb(164, 235, 164);
 }
 
+ul, li {
+  list-style: none !important;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

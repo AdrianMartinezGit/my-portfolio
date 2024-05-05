@@ -60,7 +60,7 @@ export default function Home() {
               <li>SQL</li>
               <li>C#</li>
             </ul>
-            <p className="text-black text-4xl font-normal mt-5">What I'm productive with:</p>
+            <p className="text-black text-4xl font-normal mt-5">{`What I'm productive with:`}</p>
             <ul>
               <li>Azure</li>
               <li>Slack</li>
@@ -84,7 +84,7 @@ export default function Home() {
                 <Image src={projectOneImage} alt="cardImage1" className="h-[270px] mt-1 object-cover" />
                 <div className="p-5">
                   <h1 className="text-3xl text-black font-semibold">{'Mock Talks (Front End Assistance)'}</h1>
-                  <p className="text-md text-black font-normal mt-5">This fullstack application helps users find peers to practice interviewing with. Having complete functionality such as creating accounts and/or appointments, direct messaging, and video chatting.<br/>Currently, I am one of the Front End Developers working on this project, as it's still in-progress.</p>
+                  <p className="text-md text-black font-normal mt-5">{`This fullstack application helps users find peers to practice interviewing with. Having complete functionality such as creating accounts and/or appointments, direct messaging, and video chatting.`}<br/>{`Currently, I am one of the Front End Developers working on this project, as it's still in-progress.`}</p>
                   <button className="bg-blue-500 p-4 text-white rounded-xl text-3xl w-full h-16 mt-5"><a href="https://mocktalks.vercel.app/">Go to Website</a></button>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export default function Home() {
                 <Image src={projectTriImage} alt="cardImage1" className="h-[270px] mt-1 object-cover" />
                 <div className="p-5">
                   <h1 className="text-3xl text-black font-semibold">{'All for One Challenges (Developer)'}</h1>
-                  <p className="text-md text-black font-normal mt-5">This project allows the user to select any game from the menu, and ask for input to display the outcome.<br/><br/>This was made to improve my skills with creating, hosting, and becoming familiar with Web API's through Microsoft's Cloud Service Azure.</p>
+                  <p className="text-md text-black font-normal mt-5">{`This project allows the user to select any game from the menu, and ask for input to display the outcome.`}<br/><br/>{`This was made to improve my skills with creating, hosting, and becoming familiar with Web API's through Microsoft's Cloud Service Azure.`}</p>
                   <button className="bg-blue-500 p-4 text-white rounded-xl text-3xl w-full h-16 mt-5"><a href="https://react-all-for-one.vercel.app/">Go to Website</a></button>
                 </div>
               </div>

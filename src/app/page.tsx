@@ -33,6 +33,7 @@ import iconJira from '@/assets/icons/jira-svgrepo-com.svg'
 import iconNotion from '@/assets/icons/notion-svgrepo-com.svg'
 import iconFigma from '@/assets/icons/figma-svgrepo-com.svg'
 import iconPostman from '@/assets/icons/postman-svgrepo-com.svg'
+import iconVercel from '@/assets/icons/logo-vercel-svgrepo-com.svg'
 
 import { Card } from "flowbite-react"
 
@@ -91,6 +92,7 @@ export default function Page() {
                   <Image src={iconNotion} alt="iconNotion" className="w-16 h-16" />
                   <Image src={iconFigma} alt="iconFigma" className="w-16 h-16" />
                   <Image src={iconPostman} alt="iconPostman" className="w-16 h-16" />
+                  <Image src={iconVercel} alt="iconVercel" className="w-16 h-16" />
                 </div>
               </div>
               <Image src={skillsImage} alt="About Me" className="w-96 h-full rounded-md object-cover" />
@@ -235,10 +237,11 @@ export default function Page() {
                 <h1 className="text-black text-2xl font-normal mt-5 font-[Source-Code-Pro] text-center mb-2">{`Applications that I use:`}</h1>
                 <div className="flex justify-center">
                   <div className="grid grid-rows-2 w-80 space-y-2">
-                    <div className="grid grid-cols-3">
+                    <div className="grid grid-cols-4">
                       <div className="flex justify-center"><Image src={iconAzure} alt="iconAzure" className="w-12 h-12" /></div>
                       <div className="flex justify-center"><Image src={iconSlack} alt="iconSlack" className="w-12 h-12" /></div>
                       <div className="flex justify-center"><Image src={iconGithub} alt="iconGithub" className="w-12 h-12" /></div>
+                      <div className="flex justify-center"><Image src={iconVercel} alt="iconVercel" className="w-12 h-12" /></div>
                     </div>
                     <div className="grid grid-cols-4">
                       <div className="flex justify-center"><Image src={iconJira} alt="iconJira" className="w-12 h-12" /></div>

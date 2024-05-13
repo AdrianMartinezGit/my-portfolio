@@ -255,10 +255,10 @@ export default function Page() {
         </div>
 
         <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10">
-          <h1 className="text-black text-3xl font-semibold font-[Source-Code-Pro] text-center mb-3">{`My Projects`}</h1>
+          <h1 className="text-black text-3xl sm:text-5xl md:text-6xl font-semibold font-[Source-Code-Pro] text-center mb-3 sm:mb-6">{`My Projects`}</h1>
           <div className="grid grid-flow-row space-y-2">
             <div className="bg-white w-full h-auto rounded-md">
-              <Image src={projectMockImage} alt="ProjectImage" className="w-full mt-2 h-32 sm:h-64 md:h-96 object-cover object-top"/>
+              <Image src={projectMockImage} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top"/>
               <div className="p-2">
                 <h1 className="text-2xl text-black font-extrabold font-[Source-Code-Pro] text-center">{'Mock Talks (Front End Assistance)'}</h1>
                 <p className="text-sm text-black font-normal mt-5 font-[Source-Code-Pro] text-center">{`This fullstack application helps users find peers to practice interviewing with. Having functionality such as creating accounts, appointments, direct messaging, and video chatting.`}<br /><br />{`Currently, I am one of the Front End Developers working on this project, as it's still in-progress.`}</p>
@@ -266,7 +266,7 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-white w-full h-auto rounded-md">
-              <Image src={projectPokeImage} alt="ProjectImage" className="w-full mt-2 h-32 sm:h-64 md:h-96 object-cover object-top"/>
+              <Image src={projectPokeImage} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top"/>
               <div className="p-2">
                 <h1 className="text-2xl text-black font-extrabold font-[Source-Code-Pro] text-center">{'Search that Pokémon! (Developer)'}</h1>
                 <p className="text-sm text-black font-normal mt-5 font-[Source-Code-Pro] text-center">{`This project allows the user to search for any pokemon, and display their abilities and other info.`}<br /><br />{`This was made to improve my skills with fetching and navigating through a larger API, and using more high-order functions.`}</p>
@@ -274,7 +274,7 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-white w-full h-auto rounded-md">
-              <Image src={projectA41Image} alt="ProjectImage" className="w-full mt-2 h-32 sm:h-64 md:h-96 object-cover object-top"/>
+              <Image src={projectA41Image} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top"/>
               <div className="p-2">
                 <h1 className="text-2xl text-black font-extrabold font-[Source-Code-Pro] text-center">{'All for One Challenges (Developer)'}</h1>
                 <p className="text-sm text-black font-normal mt-5 font-[Source-Code-Pro] text-center">{`This project allows the user to select any game from the menu, and ask for input to display the outcome.`}<br /><br />{`This was made to improve my skills with creating, hosting, and becoming familiar with Web API's through Microsoft's Cloud Service Azure.`}</p>
@@ -282,7 +282,7 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-white w-full h-auto rounded-md">
-              <Image src={projectWeahterImage} alt="ProjectImage" className="w-full mt-2 h-32 sm:h-64 md:h-96 object-cover object-top"/>
+              <Image src={projectWeahterImage} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top"/>
               <div className="p-2">
                 <h1 className="text-2xl text-black font-extrabold font-[Source-Code-Pro] text-center">{'Cloud 9 Web App (Developer)'}</h1>
                 <p className="text-sm text-black font-normal mt-5 font-[Source-Code-Pro] text-center">{`This project allows the user to check the weather of their current location along with searching other areas, cities, to see their weather status as well.`}<br /><br />{`This was made to help me further understand APIs and how to fill up text fields with fetched data.`}</p>

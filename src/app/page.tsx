@@ -308,9 +308,9 @@ export default function Page() {
             <div>
               <h1 className="text-3xl font-semibold text-black text-center mb-7 font-[Source-Code-Pro]">{`Other Contact Links`}</h1>
               <div className="grid grid-rows-3">
-                <a className="text-xl font-semibold text-black text-center underline mb-1 font-[Source-Code-Pro]" href="https://www.linkedin.com/in/adrian-martinez-97aa99306/">My LinkedIn</a>
-                <a className="text-xl font-semibold text-black text-center underline mb-1 font-[Source-Code-Pro]" href="https://github.com/AdrianMartinezGit">My Github</a>
-                <a className="text-xl font-semibold text-black text-center underline font-[Source-Code-Pro]" href="https://docs.google.com/document/d/10WvHDvvuObDEnTLxm8R_uT0VKye_1Nb3iMLUy7kF1r8/edit?usp=sharing">My Resume</a>
+                <a className="text-xl font-semibold text-black text-center underline mb-1 font-[Source-Code-Pro]" target="_blank" href="https://www.linkedin.com/in/adrian-martinez-97aa99306/">My LinkedIn</a>
+                <a className="text-xl font-semibold text-black text-center underline mb-1 font-[Source-Code-Pro]" target="_blank" href="https://github.com/AdrianMartinezGit">My Github</a>
+                <a className="text-xl font-semibold text-black text-center underline font-[Source-Code-Pro]" target="_blank" href="https://docs.google.com/document/d/10WvHDvvuObDEnTLxm8R_uT0VKye_1Nb3iMLUy7kF1r8/edit?usp=sharing">My Resume</a>
               </div>
             </div>
           </div>

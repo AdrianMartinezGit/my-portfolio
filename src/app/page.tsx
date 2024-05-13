@@ -44,7 +44,7 @@ export default function Page() {
         <p className="font-[Source-Code-Pro] text-white text-2xl font-lightbold text-center mt-3 tracking-tighter" style={{ textShadow: '#000000 1px 1px 1px' }}>{`Aspiring Web Developer based in Antioch, California`}</p>
 
         <div className="px-60 py-20">
-          <div className="bg-green-200 w-full h-auto p-5 rounded-xl">
+          <div className="bg-green-200 w-full h-auto p-5 rounded-xl shadow-xl shadow-green-950">
             <div className="grid grid-flow-col">
               <Image src={aboutImage} alt="About Me" className="w-96 rounded-md" />
               <div className="px-10">
@@ -57,9 +57,9 @@ export default function Page() {
         </div>
 
         <div className="px-48">
-          <div className="bg-green-200 w-full h-auto p-5 rounded-xl">
+          <div className="bg-green-200 w-full h-auto p-5 rounded-xl shadow-xl shadow-green-950">
             <div className="grid grid-flow-col">
-              <div className="px-10">
+              <div className="pl-10">
                 <h1 className="text-black text-6xl font-semibold font-[Source-Code-Pro]">{`My Skills (In Programming Languages)`}</h1>
                 <p className="text-black text-4xl font-normal mt-5 font-[Source-Code-Pro]">{`Frameworks that I Use:`}</p>
                 <div className="grid grid-flow-col w-96 mt-2">
@@ -82,7 +82,7 @@ export default function Page() {
                   <Image src={iconSQL} alt="iconSQL" className="w-16 h-16" />
                   <Image src={iconCSharp} alt="iconC#" className="w-16 h-16" />
                 </div>
-                <p className="text-black text-4xl font-normal mt-5 font-[Source-Code-Pro]">{`What I'm productive with:`}</p>
+                <p className="text-black text-4xl font-normal mt-5 font-[Source-Code-Pro]">{`Applications that I use:`}</p>
                 <div className="grid grid-flow-col w-[640px] mt-2">
                   <Image src={iconAzure} alt="iconAzure" className="w-16 h-16" />
                   <Image src={iconSlack} alt="iconSlack" className="w-16 h-16" />
@@ -99,12 +99,12 @@ export default function Page() {
         </div>
 
         <div className="px-24 py-20">
-          <div className="bg-green-200 w-full h-auto p-5 rounded-xl">
+          <div className="bg-green-200 w-full h-auto p-5 rounded-xl shadow-xl shadow-green-950">
             <h1 className="text-black text-6xl font-semibold text-center font-[Source-Code-Pro] pb-10">{`My Projects`}</h1>
             <div className="grid grid-flow-col">
 
               <div className="flex justify-center">
-                <div className="w-96 h-auto bg-white rounded-lg">
+                <div className="w-96 h-auto bg-white rounded-lg shadow-md shadow-black">
                   <Image src={projectMockImage} alt="cardImage1" className="h-[270px] mt-2 object-cover" />
                   <div className="p-5">
                     <h1 className="text-2xl text-black font-semibold font-[Source-Code-Pro]">{'Mock Talks (Front End Assistance)'}</h1>
@@ -115,7 +115,7 @@ export default function Page() {
               </div>
 
               <div className="flex justify-center">
-                <div className="w-96 h-auto bg-white rounded-lg">
+                <div className="w-96 h-auto bg-white rounded-lg shadow-md shadow-black">
                   <Image src={projectPokeImage} alt="cardImage1" className="h-[270px] mt-2 object-cover" />
                   <div className="p-5">
                     <h1 className="text-2xl text-black font-semibold font-[Source-Code-Pro]">{'Search that Pokémon! (Developer)'}</h1>
@@ -126,7 +126,7 @@ export default function Page() {
               </div>
 
               <div className="flex justify-center">
-                <div className="w-96 h-auto bg-white rounded-lg">
+                <div className="w-96 h-auto bg-white rounded-lg shadow-md shadow-black">
                   <Image src={projectA41Image} alt="cardImage1" className="h-[270px] mt-2 object-cover" />
                   <div className="p-5">
                     <h1 className="text-2xl text-black font-semibold font-[Source-Code-Pro]">{'All for One Challenges (Developer)'}</h1>
@@ -137,7 +137,7 @@ export default function Page() {
               </div>
 
               <div className="flex justify-center">
-                <div className="w-96 h-auto bg-white rounded-lg">
+                <div className="w-96 h-auto bg-white rounded-lg shadow-md shadow-black">
                   <Image src={projectWeahterImage} alt="cardImage1" className="h-[270px] mt-2 object-cover" />
                   <div className="p-5">
                     <h1 className="text-2xl text-black font-semibold font-[Source-Code-Pro]">{'Cloud 9 Web App (Developer)'}</h1>
@@ -179,19 +179,19 @@ export default function Page() {
         <h1 className="font-[Source-Code-Pro] text-white text-4xl sm:text-6xl font-semibold text-center mt-12 tracking-tighter" style={{ textShadow: '#000000 3px 3px 1px' }}>Adrian Martinez</h1>
         <p className="font-[Source-Code-Pro] text-white text-1xl sm:text-2xl font-lightbold text-center mt-3 tracking-tighter" style={{ textShadow: '#000000 1px 1px 1px' }}>{`Aspiring Web Developer based in Antioch, California`}</p>
       
-        <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10">
+        <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10 shadow-md shadow-green-950">
           <Image src={aboutImage} alt="About Me" className="w-full h-72 sm:h-96 md:h-[480px] rounded-md object-cover mb-5 object-top" />
-          <h1 className="text-black text-4xl font-semibold font-[Source-Code-Pro] text-center">{`About me`}</h1>
+          <h1 className="text-black text-4xl sm:text-5xl md:text-6xl font-semibold font-[Source-Code-Pro] text-center">{`About me`}</h1>
           <div className="p-2">
-            <p className="text-black text-md font-normal mt-5 font-[Source-Code-Pro]">{`Hi there! My name is Adrian Martinez, and I am currently a student, at Codestack Academy.`}</p>
-            <p className="text-black text-sm font-normal mt-5 font-[Source-Code-Pro]">{`I've been learning how to code using various languages, frameworks, libraries, and engines to get a grasp on how writing lines of code, troubleshooting, and debugging, can be so challenging, and applying the skills that I have learned so far to good use.`}</p>
+            <p className="text-black text-md md:text-xl font-normal mt-5 font-[Source-Code-Pro]">{`Hi there! My name is Adrian Martinez, and I am currently a student, at Codestack Academy.`}</p>
+            <p className="text-black text-sm md:text-xl font-normal mt-5 font-[Source-Code-Pro]">{`I've been learning how to code using various languages, frameworks, libraries, and engines to get a grasp on how writing lines of code, troubleshooting, and debugging, can be so challenging, and applying the skills that I have learned so far to good use.`}</p>
           </div>
         </div>
 
-        <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10">
+        <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10 shadow-md shadow-green-950">
           <Image src={skillsImage} alt="My Skills" className="w-full h-72 sm:h-96 md:h-[480px] rounded-md object-cover mb-5 object-top" />
-          <h1 className="text-black text-4xl font-semibold font-[Source-Code-Pro] text-center">{`My Skills`}</h1>
-          <h2 className="text-black text-xl font-semibold font-[Source-Code-Pro] text-center">{`(In Programming Languages)`}</h2>
+          <h1 className="text-black text-4xl sm:text-5xl md:text-6xl font-semibold font-[Source-Code-Pro] text-center">{`My Skills`}</h1>
+          <h2 className="text-black text-base sm:text-xl md:text-2xl font-semibold font-[Source-Code-Pro] text-center">{`(In Programming Languages)`}</h2>
           <div className="p-2">
             <div className="sm:grid sm:grid-flow-row sm:grid-cols-2">
 
@@ -233,7 +233,7 @@ export default function Page() {
                 </div>
               </div>
               <div>
-                <h1 className="text-black text-2xl font-normal mt-5 font-[Source-Code-Pro] text-center mb-2">{`What I'm productive with:`}</h1>
+                <h1 className="text-black text-2xl font-normal mt-5 font-[Source-Code-Pro] text-center mb-2">{`Applications that I use:`}</h1>
                 <div className="flex justify-center">
                   <div className="grid grid-rows-2 w-80 space-y-2">
                     <div className="grid grid-cols-3">
@@ -254,10 +254,10 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10">
+        <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10 shadow-md shadow-green-950">
           <h1 className="text-black text-3xl sm:text-5xl md:text-6xl font-semibold font-[Source-Code-Pro] text-center mb-3 sm:mb-6">{`My Projects`}</h1>
           <div className="grid grid-flow-row space-y-2">
-            <div className="bg-white w-full h-auto rounded-md">
+            <div className="bg-white w-full h-auto rounded-md shadow-sm shadow-black">
               <Image src={projectMockImage} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top"/>
               <div className="p-2">
                 <h1 className="text-2xl text-black font-extrabold font-[Source-Code-Pro] text-center">{'Mock Talks (Front End Assistance)'}</h1>
@@ -265,7 +265,7 @@ export default function Page() {
                 <button className="bg-blue-500 text-white rounded-xl text-xl w-full h-8 mt-4 font-[Source-Code-Pro]"><a href="https://mocktalks.vercel.app/">Go to Website</a></button>
               </div>
             </div>
-            <div className="bg-white w-full h-auto rounded-md">
+            <div className="bg-white w-full h-auto rounded-md shadow-sm shadow-black">
               <Image src={projectPokeImage} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top"/>
               <div className="p-2">
                 <h1 className="text-2xl text-black font-extrabold font-[Source-Code-Pro] text-center">{'Search that Pokémon! (Developer)'}</h1>
@@ -273,7 +273,7 @@ export default function Page() {
                 <button className="bg-blue-500 text-white rounded-xl text-xl w-full h-8 mt-4 font-[Source-Code-Pro]"><a href="https://react-pokemon-rebuild.vercel.app/">Go to Website</a></button>
               </div>
             </div>
-            <div className="bg-white w-full h-auto rounded-md">
+            <div className="bg-white w-full h-auto rounded-md shadow-sm shadow-black">
               <Image src={projectA41Image} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top"/>
               <div className="p-2">
                 <h1 className="text-2xl text-black font-extrabold font-[Source-Code-Pro] text-center">{'All for One Challenges (Developer)'}</h1>
@@ -281,7 +281,7 @@ export default function Page() {
                 <button className="bg-blue-500 text-white rounded-xl text-xl w-full h-8 mt-4 font-[Source-Code-Pro]"><a href="https://react-all-for-one.vercel.app/">Go to Website</a></button>
               </div>
             </div>
-            <div className="bg-white w-full h-auto rounded-md">
+            <div className="bg-white w-full h-auto rounded-md shadow-sm shadow-black">
               <Image src={projectWeahterImage} alt="ProjectImage" className="w-full mt-2 h-48 sm:h-64 md:h-96 object-cover object-top"/>
               <div className="p-2">
                 <h1 className="text-2xl text-black font-extrabold font-[Source-Code-Pro] text-center">{'Cloud 9 Web App (Developer)'}</h1>

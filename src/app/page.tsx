@@ -60,7 +60,7 @@ export default function Page() {
           <div className="bg-green-200 w-full h-auto p-5 rounded-xl shadow-xl shadow-green-950">
             <div className="grid grid-flow-col">
               <div className="pl-10">
-                <h1 className="text-black text-6xl font-semibold font-[Source-Code-Pro]">{`My Skills (In Programming Languages)`}</h1>
+                <h1 className="text-black text-6xl font-semibold font-[Source-Code-Pro]">{`My Skills`}</h1>
                 <p className="text-black text-4xl font-normal mt-5 font-[Source-Code-Pro]">{`Frameworks that I Use:`}</p>
                 <div className="grid grid-flow-col w-96 mt-2">
                   <Image src={iconReact} alt="iconReact" className="w-16 h-16" />
@@ -191,7 +191,6 @@ export default function Page() {
         <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10 shadow-md shadow-green-950">
           <Image src={skillsImage} alt="My Skills" className="w-full h-72 sm:h-96 md:h-[480px] rounded-md object-cover mb-5 object-top" />
           <h1 className="text-black text-4xl sm:text-5xl md:text-6xl font-semibold font-[Source-Code-Pro] text-center">{`My Skills`}</h1>
-          <h2 className="text-black text-base sm:text-xl md:text-2xl font-semibold font-[Source-Code-Pro] text-center">{`(In Programming Languages)`}</h2>
           <div className="p-2">
             <div className="sm:grid sm:grid-flow-row sm:grid-cols-2">
 

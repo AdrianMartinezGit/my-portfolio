@@ -2,9 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Source-Code-Pro;
+  src: url(../fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf);
+}
+
 body {
   color: black;
-  background: rgb(164, 235, 164);
+  /*background: rgb(164, 235, 164);*/
+  background: linear-gradient(rgb(164, 235, 164), rgb(181, 209, 181));
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 ul, li {

@@ -95,7 +95,9 @@ export default function Page() {
                   <Image src={iconVercel} alt="iconVercel" className="w-16 h-16" />
                 </div>
               </div>
-              <Image src={skillsImage} alt="About Me" className="w-96 h-full rounded-md object-cover" />
+              <div className="flex justify-end pr-10">
+                <Image src={skillsImage} alt="About Me" className="w-96 h-full rounded-md object-cover" />
+              </div>
             </div>
           </div>
         </div>
@@ -182,7 +184,7 @@ export default function Page() {
         <p className="font-[Source-Code-Pro] text-white text-1xl sm:text-2xl font-lightbold text-center mt-3 tracking-tighter" style={{ textShadow: '#000000 1px 1px 1px' }}>{`Aspiring Web Developer based in Antioch, California`}</p>
       
         <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10 shadow-md shadow-green-950">
-          <Image src={aboutImage} alt="About Me" className="w-full h-72 sm:h-96 md:h-[480px] rounded-md object-cover mb-5 object-top" />
+          <Image src={aboutImage} alt="About Me" className="w-full h-72 sm:h-96 md:h-[640px] rounded-md object-cover mb-5 object-top" />
           <h1 className="text-black text-4xl sm:text-5xl md:text-6xl font-semibold font-[Source-Code-Pro] text-center">{`About me`}</h1>
           <div className="p-2">
             <p className="text-black text-md md:text-xl font-normal mt-5 font-[Source-Code-Pro]">{`Hi there! My name is Adrian Martinez, and I am currently a student, at Codestack Academy.`}</p>
@@ -191,7 +193,7 @@ export default function Page() {
         </div>
 
         <div className="bg-green-200 w-full h-auto p-2 rounded-xl mt-10 shadow-md shadow-green-950">
-          <Image src={skillsImage} alt="My Skills" className="w-full h-72 sm:h-96 md:h-[480px] rounded-md object-cover mb-5 object-top" />
+          <Image src={skillsImage} alt="My Skills" className="w-full h-72 sm:h-96 md:h-[640px] rounded-md object-cover mb-5 object-top" />
           <h1 className="text-black text-4xl sm:text-5xl md:text-6xl font-semibold font-[Source-Code-Pro] text-center">{`My Skills`}</h1>
           <div className="p-2">
             <div className="sm:grid sm:grid-flow-row sm:grid-cols-2">
